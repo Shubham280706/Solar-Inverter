@@ -1,0 +1,35 @@
+# Environments
+venv/
+env/
+.env
+__pycache__/
+
+# Mac
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# Data files
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+
+# Temp Files
+~$*
+
+# Git Backups
+.git_backup/
+.git_backup
+
+# Build
+dist/
+build/
