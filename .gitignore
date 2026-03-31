@@ -1,8 +1,10 @@
 # Environments
 venv/
 env/
+.venv/
 .env
 __pycache__/
+*.pyc
 
 # Mac
 .DS_Store
@@ -16,6 +18,7 @@ __pycache__/
 
 # Node
 node_modules/
+**/node_modules/
 
 # Data files
 *.csv
@@ -33,3 +36,13 @@ node_modules/
 # Build
 dist/
 build/
+out/
+.next/
+
+# Logs
+*.log
+**/uvicorn.log
+**/uvicorn_startup.log
+
+# Vercel
+.vercel/

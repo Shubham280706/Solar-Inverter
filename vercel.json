@@ -2,7 +2,19 @@
   "buildCommand": "cd Hackamined-Sintex/Frontend && npm install && npm run build",
   "outputDirectory": "Hackamined-Sintex/Frontend/dist",
   "installCommand": "npm install",
+  "functions": {
+    "api/*.py": {
+      "runtime": "vercel-python@0.1.1"
+    }
+  },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.py"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }

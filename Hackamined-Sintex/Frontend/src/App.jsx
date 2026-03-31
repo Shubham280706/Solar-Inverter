@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "/api";
 
 // The inverter IDs that are in our 455MB dataset (columns 123-134)
 const INVERTER_IDS = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
