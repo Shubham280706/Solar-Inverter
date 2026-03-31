@@ -1,0 +1,9 @@
+{
+  "name": "solar-inverter-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install": "cd Hackamined-Sintex/Frontend && npm install",
+    "build": "cd Hackamined-Sintex/Frontend && npm run build"
+  }
+}

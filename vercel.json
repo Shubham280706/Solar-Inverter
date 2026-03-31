@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd Hackamined-Sintex/Frontend && npm install && npm run build",
+  "outputDirectory": "Hackamined-Sintex/Frontend/dist",
+  "installCommand": "npm install",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
